@@ -28,10 +28,15 @@
 			<li><a href="#">CSS3</a></li>
 			<li><a href="#">Django</a></li>
 			<li id="publicar_nav">
-				<a href="#" class="icon-lapiz">Publicar</a>
+				<a href="#" class="icon-lapiz" id="mostrar-form">Publicar</a>
 			</li>
 		</ul>
 	</nav>
+	<form action="" id="formulario" class="formulario">
+		<input type="text" id="titulo" placeholder="Título" required>
+		<input type="url" id="url" placeholder="Link" required>
+		<input type="submit" value="Agregar">
+	</form>
 	<aside>
 		<video width="320" height="240" controls autoplay>
   			<source src="lecturas.mp4" type="video/mp4">
@@ -57,9 +62,9 @@
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up icon-flecha_arriba"></a>
+				<a href="#" class="up icon-flecha-arriba"></a>
 				696
-				<a href="#" class="down icon-flecha_abajo"></a>
+				<a href="#" class="down icon-flecha-abajo"></a>
 				<a href="#" class="comentarios_item">3</a>
 				<a href="#" class="guardar_item icon-estrella"></a>
 			</div>
@@ -81,9 +86,9 @@
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up icon-flecha_arriba"></a>
+				<a href="#" class="up icon-flecha-arriba"></a>
 				696
-				<a href="#" class="down icon-flecha_abajo"></a>
+				<a href="#" class="down icon-flecha-abajo"></a>
 				<a href="#" class="comentarios_item">3</a>
 				<a href="#" class="guardar_item icon-estrella"></a>
 			</div>
@@ -105,9 +110,9 @@
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up icon-flecha_arriba"></a>
+				<a href="#" class="up icon-flecha-arriba"></a>
 				696
-				<a href="#" class="down icon-flecha_abajo"></a>
+				<a href="#" class="down icon-flecha-abajo"></a>
 				<a href="#" class="comentarios_item">3</a>
 				<a href="#" class="guardar_item icon-estrella"></a>
 			</div>
@@ -129,9 +134,9 @@
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up icon-flecha_arriba"></a>
+				<a href="#" class="up icon-flecha-arriba"></a>
 				696
-				<a href="#" class="down icon-flecha_abajo"></a>
+				<a href="#" class="down icon-flecha-abajo"></a>
 				<a href="#" class="comentarios_item">3</a>
 				<a href="#" class="guardar_item icon-estrella"></a>
 			</div>
@@ -153,9 +158,9 @@
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up icon-flecha_arriba"></a>
+				<a href="#" class="up icon-flecha-arriba"></a>
 				696
-				<a href="#" class="down icon-flecha_abajo"></a>
+				<a href="#" class="down icon-flecha-abajo"></a>
 				<a href="#" class="comentarios_item">3</a>
 				<a href="#" class="guardar_item icon-estrella"></a>
 			</div>
@@ -177,9 +182,9 @@
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up icon-flecha_arriba"></a>
+				<a href="#" class="up icon-flecha-arriba"></a>
 				696
-				<a href="#" class="down icon-flecha_abajo"></a>
+				<a href="#" class="down icon-flecha-abajo"></a>
 				<a href="#" class="comentarios_item">3</a>
 				<a href="#" class="guardar_item icon-estrella"></a>
 			</div>
@@ -191,5 +196,21 @@
 		</p>
 		<p>mejorando.la 2013</p>
 	</footer>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="formulario.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
