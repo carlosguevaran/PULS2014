@@ -10,6 +10,7 @@
 
 }*/
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
 @font-face {
 	font-family: 'puls4';
@@ -24,12 +25,12 @@
 
 [class^="icon-"], [class*=" icon-"] {
 	font-family: 'puls4';
-	speak: none;
 	font-style: normal;
-	font-weight: normal;
 	font-variant: normal;
-	text-transform: none;
+	font-weight: normal;
 	line-height: 1;
+	speak: none;
+	text-transform: none;
 
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
@@ -190,6 +191,12 @@ nav ul #publicar_nav a
 nav ul #publicar_nav a:hover{
 	box-shadow: 0 0 30px yellow;
 }
+nav ul #publicar_nav a.disabled{
+	background-color: yellow;
+	cursor:default;
+	box-shadow: none;
+}
+
 #contenido
 {
 	margin: 1em; 
